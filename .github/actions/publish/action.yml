@@ -7,6 +7,14 @@ inputs:
   entry-directory:
     description: Folder containing catalogue-entry.json, archive, checksum and optional catalogue-cover image
     required: true
+  source-tag:
+    description: Recovery only, exact published version tag downloaded using the game repo token
+    required: false
+    default: ''
+  source-commit:
+    description: Recovery only, full source commit from the downloaded private release entry
+    required: false
+    default: ''
 runs:
   using: composite
   steps:
@@ -15,4 +23,6 @@ runs:
       env:
         CATALOGUE_PUBLISH_TOKEN: ${{ inputs.token }}
         CATALOGUE_ENTRY_DIRECTORY: ${{ inputs.entry-directory }}
+        CATALOGUE_SOURCE_TAG: ${{ inputs.source-tag }}
+        CATALOGUE_SOURCE_COMMIT: ${{ inputs.source-commit }}
       run: node "${{ github.action_path }}/../../../scripts/publish.mjs"

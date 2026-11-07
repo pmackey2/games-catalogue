@@ -18,8 +18,8 @@ export async function publishCatalogue({ env = process.env, fetchImpl = globalTh
   if (!directory) throw Error("Catalogue entry directory is required");
   const game = validateManifest(JSON.parse(await read(path.join(directory, "catalogue-entry.json"), "utf8")));
   if (game.source.repository !== "https://github.com/" + env.GITHUB_REPOSITORY + ".git" ||
-      game.source.ref !== env.GITHUB_SHA || !/^[a-f0-9]{40}$/.test(game.source.ref) ||
-      env.GITHUB_REF_TYPE !== "tag" || env.GITHUB_REF_NAME !== "v" + game.version)
+      game.source.ref !== (env.CATALOGUE_SOURCE_COMMIT || env.GITHUB_SHA) || !/^[a-f0-9]{40}$/.test(game.source.ref) ||
+      (!env.CATALOGUE_SOURCE_TAG && env.GITHUB_REF_TYPE !== "tag") || (env.CATALOGUE_SOURCE_TAG || env.GITHUB_REF_NAME) !== "v" + game.version)
     throw Error("Catalogue provenance does not match this version-tag workflow");
   if (game.version.includes("-")) return { configured: true, prerelease: true };
   if (game.releases?.length !== 1 || game.releases[0].version !== game.version ||
