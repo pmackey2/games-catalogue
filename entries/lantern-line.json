@@ -3,7 +3,7 @@
     "specVersion": 1,
     "id": "lantern-line",
     "title": "Lantern Line",
-    "description": "Keep the lanterns burning. Build your defences across seven lanes and hold back ten waves.",
+    "description": "Defend seven lanes against ten waves of enemies. Place and upgrade towers, manage your energy, and keep the lanterns burning in this tower-defence strategy game.",
     "version": "1.0.1",
     "category": "Strategy",
     "tags": [
@@ -42,5 +42,10 @@
         "url": "https://api.github.com/repos/pmackey2/lantern-line-web/releases/assets/719585786"
       }
     ]
+  },
+  "cover": {
+    "path": "artwork/lantern-line/e1d65598e844b2a3cea58ffeecc3781af8680ef4e8b0f54e9338872f06de5cde.png",
+    "sha256": "e1d65598e844b2a3cea58ffeecc3781af8680ef4e8b0f54e9338872f06de5cde",
+    "alt": "Glowing lanterns and defensive towers protecting lanes at dusk."
   }
 }

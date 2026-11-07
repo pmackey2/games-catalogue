@@ -33,5 +33,10 @@
         "file": "falling-blocks-0.1.0.tgz"
       }
     ]
+  },
+  "cover": {
+    "path": "artwork/falling-blocks/573814257897ab625ccad5ee42fa259360342b54e1e009552f7862545f8a6658.png",
+    "sha256": "573814257897ab625ccad5ee42fa259360342b54e1e009552f7862545f8a6658",
+    "alt": "Colourful falling blocks above a glowing puzzle grid."
   }
 }

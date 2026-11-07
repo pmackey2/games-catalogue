@@ -35,5 +35,10 @@
         "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/719214902"
       }
     ]
+  },
+  "cover": {
+    "path": "artwork/atlas-guess/f5a2a3b4072c55e04e74d4bfd05d92bc5fe25ee86662ca4e727f13dd5cf74f5a.png",
+    "sha256": "f5a2a3b4072c55e04e74d4bfd05d92bc5fe25ee86662ca4e727f13dd5cf74f5a",
+    "alt": "A globe, maps and compass inviting a geography adventure."
   }
 }
