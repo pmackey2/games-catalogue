@@ -3,8 +3,8 @@
     "specVersion": 1,
     "id": "prism-break",
     "title": "Prism Break",
-    "description": "Twenty luminous brick-breaking arenas. Catch multiball, piercing balls and a predictive AI wingman on the way to the Prism Core.",
-    "version": "1.2.0",
+    "description": "Steer a paddle through 20 brick-breaking sectors, keeping balls in play and cracking armoured bricks. Earn crystal power-ups including multiball, capture and release, phase balls and an independent AI wingman.",
+    "version": "1.2.1",
     "category": "Arcade",
     "tags": [
       "arcade",
@@ -15,18 +15,23 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/prism-break.git",
-      "ref": "818e356bcbd385e8fa67e5edcb9b53d66c1ee86a"
+      "ref": "f48bae758cd7dfc8d2ec90080d37ed6b2e2d0951"
     },
     "build": {
       "profile": "static-copy",
       "files": [
         "index.html",
         "style.css",
-        "src"
+        "src",
+        "assets/cover.png"
       ]
     },
     "browserStoragePrefix": "prism-break:",
     "controls": "Drag the bottom strip or arena to steer; arrows or A/D also work. Tap, Launch or Space serves or releases held balls. P or Escape pauses. Rotate then resume. Wingman adds a separate AI paddle without taking control.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "A glowing ball shatters colourful prism bricks above a curved cyan paddle against a dark navy background."
+    },
     "releases": [
       {
         "version": "1.0.0",
@@ -42,7 +47,17 @@
         "version": "1.2.0",
         "sha256": "b60a7c29ee4b3b9af86d87dd752e28148ee93875921b8e776ca7756d5a678010",
         "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/720147628"
+      },
+      {
+        "version": "1.2.1",
+        "sha256": "2aba2fbeca2cc3091efcf7c7fc5b14ab3341f5ee397704f2b53129f0436656a4",
+        "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/720234569"
       }
     ]
+  },
+  "cover": {
+    "path": "artwork/prism-break/9a9829b370c20936be464462c85b495625cfc848972e25c16cc65e718cc396f5.png",
+    "sha256": "9a9829b370c20936be464462c85b495625cfc848972e25c16cc65e718cc396f5",
+    "alt": "A glowing ball shatters colourful prism bricks above a curved cyan paddle against a dark navy background."
   }
 }
