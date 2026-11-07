@@ -4,7 +4,7 @@
     "id": "orbital",
     "title": "ORBITAL - Journey to Earth",
     "description": "Steer around a deep-space tube, defeat incoming formations and choose four upgrade colours on the journey from Neptune to Earth. Six safe chance stages reward accurate shooting.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "category": "Arcade",
     "tags": [
       "Keyboard",
@@ -14,7 +14,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/orbital-web.git",
-      "ref": "65172d0ccf3f093642b531f714beff823c6ebd9c"
+      "ref": "ccee3ae152eb6d300485667f7b69e658ca948ec4"
     },
     "build": {
       "profile": "static-copy",
@@ -27,12 +27,26 @@
     },
     "browserStoragePrefix": "orbital.",
     "controls": "Keyboard required: WASD/arrows steer; tap Space fires; X launches/recalls globe; C changes steering; [ / ] turn speed; P/Escape pause; M music; Enter start/retry.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "A silver and blue starfighter fires green shots at enemy formations through a glowing cyan space tunnel toward Earth."
+    },
     "releases": [
       {
         "version": "1.0.0",
         "sha256": "fbe784af024615312ecb0c7f47dea0253ef5c0cafd7df4f49575d99b95f899d8",
         "url": "https://api.github.com/repos/pmackey2/orbital-web/releases/assets/719588461"
+      },
+      {
+        "version": "1.0.1",
+        "sha256": "e468978890112efb3bfed99e5bbe54d0d8a7e6773a7532d3c04015242da61ba3",
+        "url": "https://api.github.com/repos/pmackey2/orbital-web/releases/assets/720185512"
       }
     ]
+  },
+  "cover": {
+    "path": "artwork/orbital/2c453d3b7db1a4b1128199523207e8b848b572d183be43e1681e5165514861bc.png",
+    "sha256": "2c453d3b7db1a4b1128199523207e8b848b572d183be43e1681e5165514861bc",
+    "alt": "A silver and blue starfighter fires green shots at enemy formations through a glowing cyan space tunnel toward Earth."
   }
 }
