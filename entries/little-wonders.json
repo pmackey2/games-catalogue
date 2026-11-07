@@ -1,0 +1,39 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "little-wonders",
+    "title": "Little Wonders",
+    "description": "Guide a crowd of little wanderers home through six moonlit puzzles. Assign eight classic jobs, dig through soft earth and build bridges, with pause-and-plan controls and local rescue records.",
+    "version": "1.0.0",
+    "category": "Puzzle",
+    "tags": [
+      "Keyboard",
+      "Touch",
+      "Single player",
+      "Strategy"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/little-wonders-web.git",
+      "ref": "b31bad837a972eec1c0ae15d44baf4560a3d9137"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src",
+        "assets"
+      ]
+    },
+    "browserStoragePrefix": "little-wonders.",
+    "controls": "Select a job, then click or tap a wanderer. Keys 1-8 choose jobs; Space/P pauses; F toggles 3x speed; R retries; L opens levels; H opens help. Jobs can be assigned while paused.",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "sha256": "479b123e0bb340ec8c8a1d67b3f3bc00322587d98a487040598f3bb3adc6a05f",
+        "url": "https://api.github.com/repos/pmackey2/little-wonders-web/releases/assets/719587520"
+      }
+    ]
+  }
+}
