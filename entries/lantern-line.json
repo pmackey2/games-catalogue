@@ -1,0 +1,41 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "lantern-line",
+    "title": "Lantern Line",
+    "description": "Defend seven lanes against ten waves of enemies. Place and upgrade towers, manage your energy, and keep the lanterns burning in this tower-defence strategy game.",
+    "version": "1.0.0",
+    "category": "Strategy",
+    "tags": [
+      "Keyboard",
+      "Touch",
+      "Single player",
+      "Tower defence"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/lantern-line-web.git",
+      "ref": "main"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js",
+        "engine.js",
+        "icon.svg",
+        "assets"
+      ]
+    },
+    "browserStoragePrefix": "lantern-line:",
+    "controls": "Select a card, then click or tap a tile. Keys 1–9 select cards; arrows move the tile cursor; Enter places or inspects; Space pauses; G opens the field guide; hold Shift for 5× speed.",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "sha256": "504e1bc26e424d4f27986ba7bf6310a88126254d90cbb038277f859eeaf88442",
+        "url": "https://api.github.com/repos/pmackey2/lantern-line-web/releases/assets/718305533"
+      }
+    ]
+  }
+}

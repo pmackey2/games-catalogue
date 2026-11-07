@@ -1,0 +1,37 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "falling-blocks",
+    "title": "Falling Blocks",
+    "description": "Arrange falling blocks to complete rows and clear space. Play three solo modes, including alternating twin boards, and chase higher scores as the pace increases.",
+    "version": "0.1.0",
+    "category": "Puzzle",
+    "tags": [
+      "Keyboard",
+      "Single player"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/falling-blocks-web.git",
+      "ref": "1fa51d6f3d7da913eb9101d1b0cc4c63da79e880"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src",
+        "assets"
+      ]
+    },
+    "browserStoragePrefix": "falling-blocks.",
+    "controls": "Arrow keys to move and rotate · Space to drop · Esc to pause. A keyboard is required.",
+    "releases": [
+      {
+        "version": "0.1.0",
+        "sha256": "688c520d5959f50fa1c5fc742681e211757e7039007258735df71c7ceb33c7e7",
+        "file": "falling-blocks-0.1.0.tgz"
+      }
+    ]
+  }
+}

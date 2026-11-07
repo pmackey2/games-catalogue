@@ -1,0 +1,18 @@
+name: Publish a game catalogue entry
+description: Register or update a tested private game release in the public central catalogue
+inputs:
+  token:
+    description: Fine-grained Contents write token scoped only to pmackey2/games-catalogue
+    required: true
+  entry-directory:
+    description: Folder containing catalogue-entry.json, archive, checksum and optional catalogue-cover image
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Publish tested release metadata and cover
+      shell: bash
+      env:
+        CATALOGUE_PUBLISH_TOKEN: ${{ inputs.token }}
+        CATALOGUE_ENTRY_DIRECTORY: ${{ inputs.entry-directory }}
+      run: node "${{ github.action_path }}/../../../scripts/publish.mjs"

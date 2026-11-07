@@ -1,0 +1,39 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "atlas-guess",
+    "title": "Atlas Guess",
+    "description": "Test your geography with country and US state quizzes, flags, and physical landmarks. Identify deserts, lakes, seas, rivers and mountain ranges, or follow an untimed detective trail.",
+    "version": "1.0.0",
+    "category": "Geography",
+    "tags": [
+      "Keyboard",
+      "Touch",
+      "Single player",
+      "Quiz"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/atlas-guess.git",
+      "ref": "5ea7a296c396826b47954bcecce151bf73d5da00"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "assets",
+        "data",
+        "flags"
+      ]
+    },
+    "browserStoragePrefix": "atlas-guess-",
+    "controls": "Click or tap choices, or type an answer. Arrow keys and Enter select suggestions. Escape closes the mode picker. No timer; play waits for your answer.",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "sha256": "5c92054205da7c2b92cbeb54e7858d92b1db751a6e2ef14791b9043e93c422eb",
+        "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/719214902"
+      }
+    ]
+  }
+}
