@@ -4,7 +4,7 @@
     "id": "prism-break",
     "title": "Prism Break",
     "description": "Twenty luminous brick-breaking arenas. Catch multiball, piercing balls and a predictive AI wingman on the way to the Prism Core.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "category": "Arcade",
     "tags": [
       "arcade",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/prism-break.git",
-      "ref": "bfc37cae0747bfd038a7f898321ead6eda5439c8"
+      "ref": "818e356bcbd385e8fa67e5edcb9b53d66c1ee86a"
     },
     "build": {
       "profile": "static-copy",
@@ -26,7 +26,7 @@
       ]
     },
     "browserStoragePrefix": "prism-break:",
-    "controls": "Drag the bottom control strip or arena to move; arrows or A/D also work. Tap the strip, arena, Launch or Space to serve. P or Escape pauses. Rotate then resume. AI helper temporarily guides the paddle.",
+    "controls": "Drag the bottom strip or arena to steer; arrows or A/D also work. Tap, Launch or Space serves or releases held balls. P or Escape pauses. Rotate then resume. Wingman adds a separate AI paddle without taking control.",
     "releases": [
       {
         "version": "1.0.0",
@@ -37,6 +37,11 @@
         "version": "1.1.0",
         "sha256": "7d64a40a1ee6356017bc7c1f639cff6ade8be538271077a2bbbe1de0ac044a0e",
         "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/719967719"
+      },
+      {
+        "version": "1.2.0",
+        "sha256": "b60a7c29ee4b3b9af86d87dd752e28148ee93875921b8e776ca7756d5a678010",
+        "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/720147628"
       }
     ]
   }
