@@ -4,7 +4,7 @@
     "id": "atlas-guess",
     "title": "Atlas Guess",
     "description": "Test your geography with country and US state quizzes, flags, and physical landmarks. Identify deserts, lakes, seas, rivers and mountain ranges, or follow an untimed detective trail.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "category": "Geography",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/atlas-guess.git",
-      "ref": "5ea7a296c396826b47954bcecce151bf73d5da00"
+      "ref": "3f435b9579e9b9a0ddde44ec012182fbae908b0b"
     },
     "build": {
       "profile": "static-copy",
@@ -28,17 +28,26 @@
     },
     "browserStoragePrefix": "atlas-guess-",
     "controls": "Click or tap choices, or type an answer. Arrow keys and Enter select suggestions. Escape closes the mode picker. No timer; play waits for your answer.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "A globe, map and compass surrounded by mountains and waterways."
+    },
     "releases": [
       {
         "version": "1.0.0",
         "sha256": "5c92054205da7c2b92cbeb54e7858d92b1db751a6e2ef14791b9043e93c422eb",
         "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/719214902"
+      },
+      {
+        "version": "1.0.1",
+        "sha256": "2e08ccef9006837e7c2c95ddbd8b1a8932f35e1588023c08ee9b734f7215e72f",
+        "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/720159613"
       }
     ]
   },
   "cover": {
     "path": "artwork/atlas-guess/f5a2a3b4072c55e04e74d4bfd05d92bc5fe25ee86662ca4e727f13dd5cf74f5a.png",
     "sha256": "f5a2a3b4072c55e04e74d4bfd05d92bc5fe25ee86662ca4e727f13dd5cf74f5a",
-    "alt": "A globe, maps and compass inviting a geography adventure."
+    "alt": "A globe, map and compass surrounded by mountains and waterways."
   }
 }
