@@ -1,0 +1,38 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "orbital",
+    "title": "ORBITAL - Journey to Earth",
+    "description": "Steer around a deep-space tube, defeat incoming formations and choose four upgrade colours on the journey from Neptune to Earth. Six safe chance stages reward accurate shooting.",
+    "version": "1.0.0",
+    "category": "Arcade",
+    "tags": [
+      "Keyboard",
+      "Single player",
+      "Space shooter"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/orbital-web.git",
+      "ref": "65172d0ccf3f093642b531f714beff823c6ebd9c"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src",
+        "assets"
+      ]
+    },
+    "browserStoragePrefix": "orbital.",
+    "controls": "Keyboard required: WASD/arrows steer; tap Space fires; X launches/recalls globe; C changes steering; [ / ] turn speed; P/Escape pause; M music; Enter start/retry.",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "sha256": "fbe784af024615312ecb0c7f47dea0253ef5c0cafd7df4f49575d99b95f899d8",
+        "url": "https://api.github.com/repos/pmackey2/orbital-web/releases/assets/719588461"
+      }
+    ]
+  }
+}
