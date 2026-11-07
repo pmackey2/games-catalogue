@@ -1,0 +1,38 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "prism-break",
+    "title": "Prism Break",
+    "description": "Twenty luminous brick-breaking arenas. Catch multiball, piercing balls and a predictive AI wingman on the way to the Prism Core.",
+    "version": "1.0.0",
+    "category": "Arcade",
+    "tags": [
+      "arcade",
+      "brick-breaker",
+      "power-ups",
+      "touch"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/prism-break.git",
+      "ref": "01dc34138a1b11de4219f05ae805f1f036d6aece"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src"
+      ]
+    },
+    "browserStoragePrefix": "prism-break:",
+    "controls": "Mouse or touch to move; Left/Right or A/D for keyboard. Click, tap Launch or Space to serve. P or Escape pauses. AI helper temporarily guides the paddle.",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "sha256": "e41b62e26d16570959e9c978eaaccf41a5f0c2ca49b424aab6ed1f7b50dc9067",
+        "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/719522339"
+      }
+    ]
+  }
+}
