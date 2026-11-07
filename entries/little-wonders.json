@@ -4,7 +4,7 @@
     "id": "little-wonders",
     "title": "Little Wonders",
     "description": "Guide a crowd of little wanderers home through six moonlit puzzles. Assign eight classic jobs, dig through soft earth and build bridges, with pause-and-plan controls and local rescue records.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/little-wonders-web.git",
-      "ref": "b31bad837a972eec1c0ae15d44baf4560a3d9137"
+      "ref": "12c0b99e0e552a7996bce42ff6e7b1d25e770c32"
     },
     "build": {
       "profile": "static-copy",
@@ -28,12 +28,26 @@
     },
     "browserStoragePrefix": "little-wonders.",
     "controls": "Select a job, then click or tap a wanderer. Keys 1-8 choose jobs; Space/P pauses; F toggles 3x speed; R retries; L opens levels; H opens help. Jobs can be assigned while paused.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "Green-haired wanderers build a stone bridge across a moonlit valley toward a glowing doorway."
+    },
     "releases": [
       {
         "version": "1.0.0",
         "sha256": "479b123e0bb340ec8c8a1d67b3f3bc00322587d98a487040598f3bb3adc6a05f",
         "url": "https://api.github.com/repos/pmackey2/little-wonders-web/releases/assets/719587520"
+      },
+      {
+        "version": "1.0.1",
+        "sha256": "b898f5c2c20ee8284401cf710db34b949069cdf5cb2628096b50bc46c0e6afdc",
+        "url": "https://api.github.com/repos/pmackey2/little-wonders-web/releases/assets/720195994"
       }
     ]
+  },
+  "cover": {
+    "path": "artwork/little-wonders/0b3bbe5d748efffdd537bbbb9713de9b4d7ec0ff9b60209439f42c10766d941c.png",
+    "sha256": "0b3bbe5d748efffdd537bbbb9713de9b4d7ec0ff9b60209439f42c10766d941c",
+    "alt": "Green-haired wanderers build a stone bridge across a moonlit valley toward a glowing doorway."
   }
 }
