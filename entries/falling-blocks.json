@@ -4,16 +4,17 @@
     "id": "falling-blocks",
     "title": "Falling Blocks",
     "description": "Arrange falling blocks to complete rows and clear space. Play three solo modes, including alternating twin boards, and chase higher scores as the pace increases.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
+      "Touch",
       "Single player"
     ],
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/falling-blocks-web.git",
-      "ref": "1fa51d6f3d7da913eb9101d1b0cc4c63da79e880"
+      "ref": "fa891d3eee388e2b7bfe2aed693d1b55233958a8"
     },
     "build": {
       "profile": "static-copy",
@@ -25,18 +26,27 @@
       ]
     },
     "browserStoragePrefix": "falling-blocks.",
-    "controls": "Arrow keys to move and rotate · Space to drop · Esc to pause. A keyboard is required.",
+    "controls": "Touch: tap the active board to turn; drag left, right or down. Keyboard: arrows to move/rotate, Space to drop, Esc to pause.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "Colorful falling blocks above a glowing arcade grid."
+    },
     "releases": [
       {
         "version": "0.1.0",
         "sha256": "688c520d5959f50fa1c5fc742681e211757e7039007258735df71c7ceb33c7e7",
         "file": "falling-blocks-0.1.0.tgz"
+      },
+      {
+        "version": "0.2.0",
+        "sha256": "281979ab83d5e8bb370d0bec53fed4d23519ceda1ed425c23a752c9c98a2b5dc",
+        "url": "https://api.github.com/repos/pmackey2/falling-blocks-web/releases/assets/719882319"
       }
     ]
   },
   "cover": {
     "path": "artwork/falling-blocks/573814257897ab625ccad5ee42fa259360342b54e1e009552f7862545f8a6658.png",
     "sha256": "573814257897ab625ccad5ee42fa259360342b54e1e009552f7862545f8a6658",
-    "alt": "Colourful falling blocks above a glowing puzzle grid."
+    "alt": "Colorful falling blocks above a glowing arcade grid."
   }
 }
