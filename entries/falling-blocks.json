@@ -3,8 +3,8 @@
     "specVersion": 1,
     "id": "falling-blocks",
     "title": "Falling Blocks",
-    "description": "Arrange falling blocks to complete rows and clear space. Play three solo modes, including alternating twin boards, and chase higher scores as the pace increases. Turns stop at occupied blocks, and pieces lock one second after first contact.",
-    "version": "0.2.1",
+    "description": "Arrange falling blocks to complete rows and clear space. Play three solo modes, including alternating twin boards, and chase higher scores as the pace increases. Turns rebound from occupied blocks, and pieces lock one second after first contact.",
+    "version": "0.2.2",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -14,7 +14,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/falling-blocks-web.git",
-      "ref": "18c7a5d774eb66d1e4e8972e3b2f94c4ea5ad9cd"
+      "ref": "05c9802b91bcb64438f576daf5fdb38f5270666f"
     },
     "build": {
       "profile": "static-copy",
@@ -46,6 +46,11 @@
         "version": "0.2.1",
         "sha256": "077d751496896f0fef5158a2f547f49d9fe2093721647dce7a7b726aeb394e0e",
         "url": "https://api.github.com/repos/pmackey2/falling-blocks-web/releases/assets/769034594"
+      },
+      {
+        "version": "0.2.2",
+        "sha256": "45d7a0c73dcb12c1f4c34540dbd936daf742042d668861546f1f98e076649867",
+        "url": "https://api.github.com/repos/pmackey2/falling-blocks-web/releases/assets/769119023"
       }
     ]
   },
