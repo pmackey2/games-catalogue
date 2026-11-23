@@ -1,0 +1,38 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "letterlock",
+    "title": "Letterlock",
+    "description": "Guess a five-, six-, or seven-letter word in six tries. Use colour and symbols to track clues, and mark an unknown position with a space while planning a guess.",
+    "version": "0.1.0",
+    "category": "Puzzle",
+    "tags": [
+      "Keyboard",
+      "Touch",
+      "Single player",
+      "Word"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/letterlock.git",
+      "ref": "6b90a4152ad5b027e9945a6b483f12516d8bb9d3"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src"
+      ]
+    },
+    "browserStoragePrefix": "letterlock.",
+    "controls": "Type with a physical or on-screen keyboard. Enter submits, Backspace removes the last tile, and Space marks a blank position.",
+    "releases": [
+      {
+        "version": "0.1.0",
+        "sha256": "eea1892a255ac0111ffadf88eee20f38b8541c5455ebcd7b031f74f078a03bc2",
+        "url": "https://api.github.com/repos/pmackey2/letterlock/releases/assets/784973701"
+      }
+    ]
+  }
+}
