@@ -1,0 +1,48 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "wordweave",
+    "title": "Wordweave",
+    "description": "Intercept scrambled signals in a sci-fi word puzzle. Connect letters on the wheel to recover hidden words and find bonus transmissions.",
+    "version": "0.1.0",
+    "category": "Puzzle",
+    "tags": [
+      "Keyboard",
+      "Touch",
+      "Single player",
+      "Word"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/wordweave.git",
+      "ref": "b75f6aa68eff296269f621e7e217a64e1ce25582"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src",
+        "assets"
+      ]
+    },
+    "browserStoragePrefix": "wordweave.",
+    "controls": "Slide across the letter wheel and release to submit. Keyboard: type letters, Enter to submit, Backspace to undo or Escape to clear.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "A teal and amber sci-fi signal decoder displaying an intercepted waveform."
+    },
+    "releases": [
+      {
+        "version": "0.1.0",
+        "sha256": "1e2a6c6a9ad08ce0e258709c08cd9dbffbd35f435998fccaaf303f7d3bfb7a8e",
+        "url": "https://api.github.com/repos/pmackey2/wordweave/releases/assets/788782652"
+      }
+    ]
+  },
+  "cover": {
+    "path": "artwork/wordweave/dd3fdf607ea1879c90bbba0983b9c706a0746751aa89739b29683b11246f7a40.png",
+    "sha256": "dd3fdf607ea1879c90bbba0983b9c706a0746751aa89739b29683b11246f7a40",
+    "alt": "A teal and amber sci-fi signal decoder displaying an intercepted waveform."
+  }
+}
