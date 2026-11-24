@@ -4,7 +4,7 @@
     "id": "atlas-guess",
     "title": "Atlas Guess",
     "description": "Explore countries, states and physical landmarks, plus New Zealand cities, regions, rivers, lakes, mountains and volcanoes. Type names or pick answers, use clues, or follow an untimed detective trail.",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "category": "Geography",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/atlas-guess.git",
-      "ref": "659bb14bc9f08cb7307907ae6868b3fd23e3ef82"
+      "ref": "039650690b5bcc42d21768cf76c8b798ba6c5a88"
     },
     "build": {
       "profile": "static-copy",
@@ -47,6 +47,11 @@
         "version": "1.1.0",
         "sha256": "a5af0e8d1b61261bf9c53cbd218bd0dede67744e27ffd1a62f6ea7de468132b8",
         "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/720210305"
+      },
+      {
+        "version": "1.1.1",
+        "sha256": "f5bbddb434677d253ca42cf43251b640e72bc58047ef47b6f6d1daff1675baa6",
+        "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/789044773"
       }
     ]
   },
