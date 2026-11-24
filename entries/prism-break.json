@@ -4,7 +4,7 @@
     "id": "prism-break",
     "title": "Prism Break",
     "description": "Steer a paddle through 20 brick-breaking sectors, keeping balls in play and cracking armoured bricks. Earn crystal power-ups including multiball, capture and release, phase balls and an independent AI wingman.",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "category": "Arcade",
     "tags": [
       "arcade",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/prism-break.git",
-      "ref": "f48bae758cd7dfc8d2ec90080d37ed6b2e2d0951"
+      "ref": "87c28d4840e5132aa82dc49d5b3113f04dc74a8e"
     },
     "build": {
       "profile": "static-copy",
@@ -52,6 +52,11 @@
         "version": "1.2.1",
         "sha256": "2aba2fbeca2cc3091efcf7c7fc5b14ab3341f5ee397704f2b53129f0436656a4",
         "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/720234569"
+      },
+      {
+        "version": "1.2.2",
+        "sha256": "0e6386988ff6aa59faea299d23781b3c9200ee9916c3f467fa464c127fc45bc5",
+        "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/789048514"
       }
     ]
   },
