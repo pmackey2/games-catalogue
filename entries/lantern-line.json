@@ -4,7 +4,7 @@
     "id": "lantern-line",
     "title": "Lantern Line",
     "description": "Defend seven lanes against ten waves of enemies. Place and upgrade towers, manage your energy, and keep the lanterns burning in this tower-defence strategy game.",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "category": "Strategy",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/lantern-line-web.git",
-      "ref": "965ebc76e33e70d208efaefd672c3f017ba626a6"
+      "ref": "acbc10817a08c7cfb2b488d5f1e0d2dc698ca3d2"
     },
     "build": {
       "profile": "static-copy",
@@ -29,7 +29,11 @@
       ]
     },
     "browserStoragePrefix": "lantern-line:",
-    "controls": "Select a card, then click or tap a tile. Keys 1–9 select cards; arrows move the tile cursor; Enter places or inspects; Space pauses; G opens the field guide; hold Shift for 5× speed.",
+    "controls": "Select a card and hover to preview; click to place. On touch, tap a tile to preview and tap it again to confirm. Keys 1–9 select cards; arrows move the tile cursor; Enter places or inspects; Space pauses; G opens the field guide; hold Shift for 5× speed.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "Glowing lantern beacons and defensive towers guarding grassy lanes."
+    },
     "releases": [
       {
         "version": "1.0.0",
@@ -40,12 +44,17 @@
         "version": "1.0.1",
         "sha256": "21bfc662eeb37fa7278da6c131cb72f4add0f1b28b34d2f3944d12d2414e12a6",
         "url": "https://api.github.com/repos/pmackey2/lantern-line-web/releases/assets/719585786"
+      },
+      {
+        "version": "1.1.0",
+        "sha256": "7d59a3f26022ef08253ece4c3fea4ce562295234c5e680bfa2ad24b3216a16c3",
+        "url": "https://api.github.com/repos/pmackey2/lantern-line-web/releases/assets/785986951"
       }
     ]
   },
   "cover": {
     "path": "artwork/lantern-line/e1d65598e844b2a3cea58ffeecc3781af8680ef4e8b0f54e9338872f06de5cde.png",
     "sha256": "e1d65598e844b2a3cea58ffeecc3781af8680ef4e8b0f54e9338872f06de5cde",
-    "alt": "Glowing lanterns and defensive towers protecting lanes at dusk."
+    "alt": "Glowing lantern beacons and defensive towers guarding grassy lanes."
   }
 }
