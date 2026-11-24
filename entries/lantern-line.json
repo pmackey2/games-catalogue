@@ -4,7 +4,7 @@
     "id": "lantern-line",
     "title": "Lantern Line",
     "description": "Defend seven lanes against ten waves of enemies. Place and upgrade towers, manage your energy, and keep the lanterns burning in this tower-defence strategy game.",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "category": "Strategy",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/lantern-line-web.git",
-      "ref": "b5b78b253c111d1dc9a3b75375cf3aa833eea784"
+      "ref": "3161de989f4b7f18d64dbeeed44e3811c48ef93f"
     },
     "build": {
       "profile": "static-copy",
@@ -60,6 +60,11 @@
         "version": "1.1.2",
         "sha256": "019c350431ff6b221da17a792a6e2d0f6bd854b3f837501d7796555d4b67d9f3",
         "url": "https://api.github.com/repos/pmackey2/lantern-line-web/releases/assets/786199700"
+      },
+      {
+        "version": "1.1.3",
+        "sha256": "2076d5f57f84ba4b0970a6dab96d5f4fb41e1468949f0e754f4ea2b21930ed43",
+        "url": "https://api.github.com/repos/pmackey2/lantern-line-web/releases/assets/786240236"
       }
     ]
   },
