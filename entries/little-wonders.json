@@ -4,7 +4,7 @@
     "id": "little-wonders",
     "title": "Little Wonders",
     "description": "Guide a crowd of little wanderers home through six moonlit puzzles. Assign eight classic jobs, dig through soft earth and build bridges, with pause-and-plan controls and local rescue records.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/little-wonders-web.git",
-      "ref": "dc63b1e55c42bfb0af40a54f011e5044c1dace35"
+      "ref": "ec804267f741ec068218d82efa099128ac9839d1"
     },
     "build": {
       "profile": "static-copy",
@@ -47,6 +47,11 @@
         "version": "1.0.2",
         "sha256": "993078d49bbd2ff3093d57e79c1327d439936b115d2c95ddbf7c3a4eac00c889",
         "url": "https://api.github.com/repos/pmackey2/little-wonders-web/releases/assets/785990377"
+      },
+      {
+        "version": "1.0.3",
+        "sha256": "b91c4a2d044a99d7b65a42037a74790b0af875558f93db0ba5856e387243ece8",
+        "url": "https://api.github.com/repos/pmackey2/little-wonders-web/releases/assets/789018059"
       }
     ]
   },
