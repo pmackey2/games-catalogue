@@ -4,7 +4,7 @@
     "id": "letterlock",
     "title": "Letterlock",
     "description": "Guess a five-, six-, or seven-letter word in six tries. Use colour and symbols to track clues, and mark an unknown position with a space while planning a guess.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/letterlock.git",
-      "ref": "88b22244ec996c04d7f2d6519d7dfbeb920ed306"
+      "ref": "40ec58c9621438b12bd214fe3c1118236c13f255"
     },
     "build": {
       "profile": "static-copy",
@@ -30,7 +30,7 @@
     "controls": "Type with a physical or on-screen keyboard. Enter submits, Backspace removes the last tile, and Space marks a blank position.",
     "artwork": {
       "src": "assets/cover.png",
-      "alt": "A mint padlock tile surrounded by teal, amber and slate tiles on a dark grid."
+      "alt": "Gymakhan on his carved throne, reaching towards a glowing stone letter K."
     },
     "releases": [
       {
@@ -47,6 +47,11 @@
         "version": "0.1.2",
         "sha256": "24521bb3dfd66ac866ab328ec69509bf16be64dd4aa16152315c9de3b494ee2f",
         "url": "https://api.github.com/repos/pmackey2/letterlock/releases/assets/785607314"
+      },
+      {
+        "version": "0.1.3",
+        "sha256": "ef4883ec441e6ce3cd1e63684ad83114e387ce730cae1b42d2a075473234f3f6",
+        "url": "https://api.github.com/repos/pmackey2/letterlock/releases/assets/785637871"
       }
     ]
   },
