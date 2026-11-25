@@ -4,7 +4,7 @@
     "id": "orbital",
     "title": "ORBITAL - Journey to Earth",
     "description": "Steer around a deep-space tube, defeat incoming formations and choose four upgrade colours on the journey from Neptune to Earth. Six safe chance stages reward accurate shooting.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "category": "Arcade",
     "tags": [
       "Keyboard",
@@ -14,7 +14,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/orbital-web.git",
-      "ref": "7e7a35d639c58621a98de2804d4a21203eff5082"
+      "ref": "927dd1fb9e5fdca33e4d367397726940faa49b95"
     },
     "build": {
       "profile": "static-copy",
@@ -51,6 +51,11 @@
         "version": "1.0.3",
         "sha256": "444f1fb19a1d8e2b0fa08cb4d02b82737bad29bd86a9d1b22ef4669213e11e38",
         "url": "https://api.github.com/repos/pmackey2/orbital-web/releases/assets/789909891"
+      },
+      {
+        "version": "1.0.4",
+        "sha256": "1013e3531b822c06e4749c6e1687106acb9c961c467be4ebac02a0fdb5b908a8",
+        "url": "https://api.github.com/repos/pmackey2/orbital-web/releases/assets/789925485"
       }
     ]
   },
