@@ -1,0 +1,50 @@
+{
+  "game": {
+    "specVersion": 1,
+    "id": "cobalt-signal",
+    "version": "0.1.0",
+    "title": "Cobalt Signal",
+    "description": "An original Legacy of the Madurians pinball table. Light two raised ramps and the Archive, then hit Transmit. Tune the ball, flippers and spring plunger.",
+    "category": "Arcade",
+    "tags": [
+      "pinball",
+      "science fiction",
+      "touch"
+    ],
+    "entry": "index.html",
+    "source": {
+      "repository": "https://github.com/pmackey2/cobalt-signal.git",
+      "ref": "41e63f12d4ef730bdd74263aa3adecc412b84382"
+    },
+    "build": {
+      "profile": "static-copy",
+      "files": [
+        "index.html",
+        "style.css",
+        "src",
+        "assets/playfield.svg",
+        "assets/mark.svg",
+        "assets/flipper.svg",
+        "assets/cover.png"
+      ]
+    },
+    "browserStoragePrefix": "cobalt-signal:",
+    "controls": "Left and Right flip. Hold Down and release to launch. Touch controls also available. P pauses.",
+    "artwork": {
+      "src": "assets/cover.png",
+      "alt": "Cobalt-blue pinball playfield with polished rails and warm pinball lamps over the Legacy of the Madurians cover."
+    },
+    "releases": [
+      {
+        "version": "0.1.0",
+        "sha256": "daa3b3854df800e1864b7b508a17bc3749b596816f4f81957183944fd37c5087",
+        "url": "https://api.github.com/repos/pmackey2/cobalt-signal/releases/assets/799731152"
+      }
+    ]
+  },
+  "cover": {
+    "path": "artwork/cobalt-signal/661710f4282d7007fdf9ec07bfd79e5f7d1b659a80aae65a3d34a5cf73dcc309.png",
+    "sha256": "661710f4282d7007fdf9ec07bfd79e5f7d1b659a80aae65a3d34a5cf73dcc309",
+    "alt": "Cobalt-blue pinball playfield with polished rails and warm pinball lamps over the Legacy of the Madurians cover."
+  }
+}
