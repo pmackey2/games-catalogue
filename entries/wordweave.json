@@ -4,7 +4,7 @@
     "id": "wordweave",
     "title": "Wordweave",
     "description": "Intercept scrambled signals in a sci-fi word puzzle. Connect letters on the wheel to recover hidden words and find bonus transmissions.",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/wordweave.git",
-      "ref": "ca3d116091a56b5bb1fc7ac73c2d00cd9b726724"
+      "ref": "cbbd7decd0f72912c44f3a53222f53191f3dea48"
     },
     "build": {
       "profile": "static-copy",
@@ -117,6 +117,11 @@
         "version": "0.1.17",
         "sha256": "185304e3d0aa46eafa36471c1799395edbfeae6f4cf84e34cd68627800795f25",
         "url": "https://api.github.com/repos/pmackey2/wordweave/releases/assets/802282104"
+      },
+      {
+        "version": "0.1.18",
+        "sha256": "bf278c0709137b3c7e384121e69b433e81a765aa2ab8eee53c32055751bdfbdf",
+        "url": "https://api.github.com/repos/pmackey2/wordweave/releases/assets/802304059"
       }
     ]
   },
