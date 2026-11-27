@@ -2,7 +2,7 @@
   "game": {
     "specVersion": 1,
     "id": "cobalt-signal",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "title": "Cobalt Signal",
     "description": "An original Legacy of the Madurians pinball table. Light two raised ramps and the Archive, then hit Transmit. Tune the ball, flippers and spring plunger.",
     "category": "Arcade",
@@ -14,7 +14,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/cobalt-signal.git",
-      "ref": "41e63f12d4ef730bdd74263aa3adecc412b84382"
+      "ref": "2a67d1b9a1e32fa3f1585467f839f0ead380244d"
     },
     "build": {
       "profile": "static-copy",
@@ -39,6 +39,11 @@
         "version": "0.1.0",
         "sha256": "daa3b3854df800e1864b7b508a17bc3749b596816f4f81957183944fd37c5087",
         "url": "https://api.github.com/repos/pmackey2/cobalt-signal/releases/assets/799731152"
+      },
+      {
+        "version": "0.1.1",
+        "sha256": "6baa440aa9040d545f019e403a3db4bd845862973dda3c4a908f12b15f86ff46",
+        "url": "https://api.github.com/repos/pmackey2/cobalt-signal/releases/assets/799758303"
       }
     ]
   },
