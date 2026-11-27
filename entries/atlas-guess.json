@@ -4,7 +4,7 @@
     "id": "atlas-guess",
     "title": "Atlas Guess",
     "description": "Explore countries, states, landmarks and New Zealand, or identify countries from their flags. Type names or pick answers, use map clues, or follow an untimed detective trail.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "category": "Geography",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/atlas-guess.git",
-      "ref": "a1f1346aaa082baee653076d83c3d5e89a442e1e"
+      "ref": "2c582f64db237f94f735b919bad990fd458fee5b"
     },
     "build": {
       "profile": "static-copy",
@@ -68,6 +68,11 @@
         "version": "1.2.2",
         "sha256": "a2fe05156f6ff29ad1163320986d52d99a65a540dbaeb4bb5623b43dbd6ddc61",
         "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/799768332"
+      },
+      {
+        "version": "1.2.3",
+        "sha256": "b264c6d0240221531a1780300943ec10e22834a7ab3dbf0b641be90d78698f01",
+        "url": "https://api.github.com/repos/pmackey2/atlas-guess/releases/assets/799914110"
       }
     ]
   },
