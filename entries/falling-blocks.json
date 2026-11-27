@@ -4,7 +4,7 @@
     "id": "falling-blocks",
     "title": "Falling Blocks",
     "description": "Clear rows across four solo modes, including alternating twin boards. In Wild Drop, every tenth piece falls fast from a random column at a random angle and cannot be controlled. Turns rebound from occupied blocks; pieces lock one second after contact.",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -14,7 +14,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/falling-blocks-web.git",
-      "ref": "d1d0db970e2462396796490105c5bca00d1e12eb"
+      "ref": "7581a477e5d27dc0ec86d2f1588564659c01e11d"
     },
     "build": {
       "profile": "static-copy",
@@ -71,6 +71,11 @@
         "version": "0.4.1",
         "sha256": "420ae07ad12a73260a68113279935757854d83e906c1e445df803a4336d39ca3",
         "url": "https://api.github.com/repos/pmackey2/falling-blocks-web/releases/assets/794804257"
+      },
+      {
+        "version": "0.4.2",
+        "sha256": "a4c20ba4e6b53fdf1d4983dc6ac34ac9a44d330638ec6226b94811f2c6aa3f0f",
+        "url": "https://api.github.com/repos/pmackey2/falling-blocks-web/releases/assets/799765201"
       }
     ]
   },
