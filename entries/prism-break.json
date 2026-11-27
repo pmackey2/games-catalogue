@@ -3,8 +3,8 @@
     "specVersion": 1,
     "id": "prism-break",
     "title": "Prism Break",
-    "description": "Steer a paddle through 20 brick-breaking sectors, keeping balls in play and cracking armoured bricks. Earn crystal power-ups including multiball, capture and release, phase balls and an independent AI wingman.",
-    "version": "1.2.2",
+    "description": "An arcade-style brick breaker with 20 original rounds, silver and gold bricks, and seven capsules. Tune paddle speed, acceleration, inertia and width, then save your settings.",
+    "version": "1.3.0",
     "category": "Arcade",
     "tags": [
       "arcade",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/prism-break.git",
-      "ref": "87c28d4840e5132aa82dc49d5b3113f04dc74a8e"
+      "ref": "d3a1e389b1453e25b1a6e47c38b2b4394faf5c22"
     },
     "build": {
       "profile": "static-copy",
@@ -27,7 +27,7 @@
       ]
     },
     "browserStoragePrefix": "prism-break:",
-    "controls": "Drag the bottom strip or arena to steer; arrows or A/D also work. Tap, Launch or Space serves or releases held balls. P or Escape pauses. Rotate then resume. Wingman adds a separate AI paddle without taking control.",
+    "controls": "Drag the bottom strip or arena to steer; arrows or A/D also work. Tap or press Space to serve, release or fire the laser. P or Escape pauses. Settings lets you tune and save the paddle.",
     "artwork": {
       "src": "assets/cover.png",
       "alt": "A glowing ball shatters colourful prism bricks above a curved cyan paddle against a dark navy background."
@@ -57,6 +57,11 @@
         "version": "1.2.2",
         "sha256": "0e6386988ff6aa59faea299d23781b3c9200ee9916c3f467fa464c127fc45bc5",
         "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/789048514"
+      },
+      {
+        "version": "1.3.0",
+        "sha256": "e7e95872751e3fae628ee086fc5ba6b3be3d89ce0fe70973e21a2d0f8647ee94",
+        "url": "https://api.github.com/repos/pmackey2/prism-break/releases/assets/799609298"
       }
     ]
   },
