@@ -4,7 +4,7 @@
     "id": "letterlock",
     "title": "Letterlock",
     "description": "Guess a five-, six-, or seven-letter word in six tries. Use colour and symbols to track clues, and mark an unknown position with a space while planning a guess.",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "category": "Puzzle",
     "tags": [
       "Keyboard",
@@ -15,7 +15,7 @@
     "entry": "index.html",
     "source": {
       "repository": "https://github.com/pmackey2/letterlock.git",
-      "ref": "0f9da0239f8ef19118fd4bf6a7894ad102e867ff"
+      "ref": "b392abd4c03c68264d50af9117952929e04afd5a"
     },
     "build": {
       "profile": "static-copy",
@@ -152,6 +152,11 @@
         "version": "0.1.25",
         "sha256": "bdb7ce5e39b5ba4482dfe7b666f8ffb0541c8509cd26944d6440c98bb4698316",
         "url": "https://api.github.com/repos/pmackey2/letterlock/releases/assets/802660403"
+      },
+      {
+        "version": "0.1.26",
+        "sha256": "824e3f759708338569d6f5c4f1b5f05b7cec93a24685f6a8f7693cad8155aaf2",
+        "url": "https://api.github.com/repos/pmackey2/letterlock/releases/assets/802684440"
       }
     ]
   },
